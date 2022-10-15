@@ -1,0 +1,66 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(imagem/fundo.jpg) no-repeat top center;
+    background-size: cover;  
+}
+
+#area-login {
+    background: rgba(255,255,255,0.3); 
+    width: 400px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 120px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#area-login img {
+    width: 120px;
+    margin-top: -60px;
+}
+
+form {
+    margin-top: 80px;
+}
+
+.login input {
+    border: none;
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background-position: 10px ;
+}
+
+.e-mail  {
+    background: #fff url(imagem/icone-usuario.png)no-repeat left ;
+
+}
+
+.senha  {
+    background: #fff url(imagem/icone-cadeado.png)no-repeat left ;
+
+}
+
+
+#enviar input {
+    font-size: 18px;
+    border: 1px solid black;
+    width: 92%;
+    height: 45px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    background: #f79300;
+    border: 2px solid #db7d00;
+
+
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+    background: linear-gradient(to bottom, #faa600, #f68a00 );
+
+}

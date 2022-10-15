@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff url(imagem/coluna.png) repeat-y left top; /*<!--coluna falsa */
+    min-width: 720px; /*<!--Largura Minima para reduzir container */
+    max-width: 1200px; /*<!--Largura Máxima para aumentar container */
+} 
+#marca {
+    width: 100%;
+    height: 200px;
+    background: #225992 url(imagem/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+}
+
+#conteudo {
+    width: 76% ;
+    float: right;
+}
+#conteudo1 {
+    width: 62% ;
+    float: left;
+}
+
+.img-noticia {
+   width: 95%;
+   padding: 1% 2.5%;
+}
+
+#conteudo2 {
+    width: 35%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo2 h1,
+#conteudo2 h2,
+#conteudo2 h3,
+#conteudo2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+    width: 20% ;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background: #d1d1d1; */
+}
+
+#navegacao a {
+    color: #225992;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navegacao ul li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+
+hr {
+    margin-bottom: 20px;
+}

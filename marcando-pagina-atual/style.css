@@ -1,0 +1,39 @@
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	width: 200px;
+}
+
+li {
+	margin: 0px;
+	padding: 0px;
+	width: 200px ;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(imagens/menu.png);
+}
+
+a:hover {
+	background-position: right bottom ;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home .index a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias .noticias a,
+#contato .contato  a {
+	background-position: right bottom ; 
+	background-color: #f7b500;
+	color: #fff;
+}
