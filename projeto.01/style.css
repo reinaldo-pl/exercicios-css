@@ -124,6 +124,16 @@ ul {
 	margin: 0px 0px 20px -780px;
 
 }
+.fotos #conteudo {
+	width: 780px;
+}
+
+.fotos #conteudo #primeiro-conteudo {
+	width: 100%;	
+}
+
+
+
 /*********ESTILIZANDO LAYOUT *********/
 
 .caixa {
