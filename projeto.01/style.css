@@ -1,0 +1,361 @@
+/* Estrutura do site
+*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#container {
+	width: 770px;
+	margin: 0 auto;
+}
+
+#area-topo {
+	height: 150px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+/* Barra de navegação
+*/
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #e50040;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#area-topo ul {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+
+#area-topo ul li {
+	float: left;
+}
+
+#area-topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#area-topo ul .primeiro a {
+	background: none;
+}
+
+#area-topo ul a:hover {
+	color: #69001d;
+}
+
+.home #area-topo #navegacao a#home {
+	color: #fff;
+	background: #de003e;
+}
+
+
+/*********** AREA LAYOUT ************/
+
+.home #conteudo {
+	width: 780px;
+	margin-top: 60px;
+}
+
+.home #primeiro-conteudo {
+	width: 280px;
+	float: left;
+	margin: 0px 0px 20px 195px  ;
+}
+
+.home #segundo-conteudo {
+	width: 280px;
+	float: left;
+	margin: 0px 0px 20px 15px  ;
+}
+
+.home #area-lateral {
+	width: 190px;
+	float: left;
+	margin: 0px 0px 20px -780px;
+}
+
+.brasil #conteudo {
+	width: 780px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.brasil #primeiro-conteudo {
+	width: 560px;
+	float: left;
+	margin: 0px 0px 20px 220px;
+}
+
+
+.brasil #area-lateral {
+	width: 190px;
+	float: left;
+	margin: 0px 0px 20px -780px;
+
+}
+/*********ESTILIZANDO LAYOUT *********/
+
+.caixa {
+	background: url(imagens/fundo-caixa.png);
+	padding: 5px;
+	margin-top: 10px;
+} 
+
+#area-lateral .caixa ul {
+	margin-top: 5px;
+}
+
+#area-lateral .caixa ul li{
+	background: #fff;
+	border-bottom: 1px solid #cecece;
+	line-height: 35px;
+}
+
+#area-lateral .caixa ul li a {
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #000;
+	padding: 5px ;
+}
+#area-lateral .caixa ul .fer {
+	border-bottom: none;
+}
+
+#area-lateral .caixa ul li:hover {
+	background: #cecece url(imagens/marcador.png) no-repeat left center;
+	padding: 0px 0px 0px 20px;
+}
+
+#area-lateral .caixa h2 {
+	background-color: #294c71;
+	color: #fff;
+	padding: 7px;
+}
+
+#news {
+	background: #fff;
+	margin-top: 5px;
+}
+
+input {
+	padding: 5px ;
+	width: 125px;
+	background: #fff;
+	font-size: 0.9em;
+}
+
+input.submit {
+	color: #fff;
+	background: #b10333;
+	border: 2px solid #870529;
+}
+ /*********** FIM AREA LATERAL **********************/
+
+/********************* INICIO PRIMEIRO CONTEUDO *********************/
+#primeiro-conteudo .caixa h2 {
+	background-color: #294c71;
+	color: #fff;
+	padding: 7px;
+	margin-bottom: 5px;
+}
+
+#primeiro-conteudo .caixa .caixa-legislacao{
+	background: #fff;
+	padding-top: 5px ;
+}
+
+#primeiro-conteudo .caixa .caixa-legislacao  h3 {
+	width: 70%;
+	background: #b10333;
+	color: #fff;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px ;
+	margin-left: 5px;
+}
+
+#primeiro-conteudo .caixa .caixa-legislacao img {
+	float: left;
+	width: 95%;
+	margin-left: 5px;
+	border: 3px solid #cecece;
+	margin-top: 3px ;
+}
+
+#primeiro-conteudo .caixa .caixa-legislacao p {
+	margin-left: 5px;
+}
+
+#primeiro-conteudo .caixa .caixa-legislacao a {
+	margin-left: 5px;
+}
+
+#primeiro-conteudo .caixa .tecnologias {
+	background: #fff;
+} 
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li a img {
+	float: left;
+	margin: 5px;
+}
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+	text-transform: uppercase;
+}
+
+#primeiro-conteudo #conteudo-mundo .caixa .tecnologias ul li a p {
+	font-size: 0.7em;
+	color: #000;
+
+}
+
+
+
+/********************* FIM PRIMEIRO CONTEUDO *********************/
+
+
+/********************* INICIO SEGUNDO CONTEUDO *********************/
+
+#segundo-conteudo .caixa h2 {
+	background-color: #294c71;
+	color: #fff;
+	padding: 7px;
+	margin-bottom: 5px;
+}
+
+#segundo-conteudo .caixa .caixa-legislacao{
+	background: #fff;
+	padding-top: 5px ;
+}
+
+#segundo-conteudo .caixa .caixa-legislacao  h3 {
+	width: 70%;
+	background: #b10333;
+	color: #000;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px ;
+	margin-left: 5px;
+}
+
+#segundo-conteudo .caixa .caixa-legislacao img {
+	float: left;
+	width: 95%;
+	margin-left: 5px;
+	border: 3px solid #cecece;
+	margin-top: 3px ;
+}
+
+#segundo-conteudo .caixa .caixa-legislacao p {
+	margin-left: 5px;
+}
+
+#segundo-conteudo .caixa .caixa-legislacao a {
+	margin-left: 5px;
+}
+
+
+
+#segundo-conteudo .caixa .tecnologias {
+	background: #fff;
+} 
+
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+  
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li a img {
+	float: left;
+	margin: 5px;
+}
+
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+	text-transform: uppercase;
+}
+
+#segundo-conteudo #conteudo-noticias .caixa .tecnologias ul li a p {
+	font-size: 0.7em;
+	color: #000;
+
+}
+
+
+/* ****** RODA PÉ ************* */
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+
+}
+
+
+#rodape {
+	width: 780px;
+	color: #fff;
+	margin: 0 auto ;
+
+}
